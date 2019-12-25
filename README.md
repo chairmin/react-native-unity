@@ -1,13 +1,13 @@
 
-# react-native-unity2019
+# react-native-unity
 
 ## Getting started
 
-`$ npm install react-native-unity2019 --save`
+`$ npm install react-native-unity --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-unity2019`
+`$ react-native link react-native-unity`
 
 ### Manual installation
 
@@ -15,7 +15,7 @@
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-unity2019` and add `RNUnity2019.xcodeproj`
+2. Go to `node_modules` ➜ `react-native-unity` and add `RNUnity2019.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNUnity2019.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
@@ -34,20 +34,11 @@
       compile project(':react-native-unity2019')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNUnity2019.sln` in `node_modules/react-native-unity2019/windows/RNUnity2019.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Unity2019.RNUnity2019;` to the usings at the top of the file
-  - Add `new RNUnity2019Package()` to the `List<IReactPackage>` returned by the `Packages` method
-
 
 ## Usage
 ```javascript
-import RNUnity2019 from 'react-native-unity2019';
+import RNUnityView from 'react-native-unity';
 
-// TODO: What to do with the module?
-RNUnity2019;
+<RNUnityView style={{width:300, height: 400}} />
 ```
   
