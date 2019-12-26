@@ -3,7 +3,7 @@
 
     Now only supports iOS, Android will also support in the future.
 
-![](https://github.com/chairmin/react-native-unity/blob/master/README-1.png?raw=true)
+![](https://github.com/chairmin/react-native-unity/blob/master/r1.png?raw=true)
 
 ## Requirements
 
