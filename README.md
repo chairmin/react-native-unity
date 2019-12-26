@@ -45,6 +45,6 @@ react-native link react-native-unity
 ```javascript
 import RNUnityView from 'react-native-unity';
 
-<RNUnityView style={{width:300, height: 400}} />
+          <RNUnityView style={{left: 50, top: -20, width: 300, height: 400}} />
 ```
   
