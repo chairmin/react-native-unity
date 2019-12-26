@@ -1,14 +1,14 @@
 
 Pod::Spec.new do |s|
-  s.name         = "react-native-unity"
+  s.name         = "RNUnity2019"
   s.version      = "1.0.0"
-  s.summary      = "react-native-unity, need unity2019.3+"
+  s.summary      = "RNUnity2019, need unity2019.3+"
   s.description  = <<-DESC
                   react-native-unity
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/chairmin/react-native-unity"
   s.license      = "MIT"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "chaimyu" => "yucm@qq.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/chairmin/react-native-unity.git", :tag => "master" }
