@@ -3,6 +3,8 @@
 
     Now only supports iOS, Android will also support in the future.
 
+![](https://github.com/chairmin/react-native-unity/blob/master/README-1.png?raw=true)
+
 ## Requirements
 
 [Unity 2019.3.0a3+](https://unity.com/)
